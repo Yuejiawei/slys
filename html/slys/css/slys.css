@@ -1,0 +1,104 @@
+.banner-swiper .prevClass {
+    left: 3%;
+    background-image: url(../img/prev.png);
+}
+.banner-swiper .nextClass {
+    right: 3%;
+    background-image: url(../img/next.png);
+}
+.prevClass, .nextClass {
+    width: 50px;
+    height: 96px;
+    top: 48%;
+}
+.upper {
+    display: none;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.comW {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.mobShow {
+    display: none;
+}
+.pcShow {
+    display: block;
+}
+.banner-swiper-wrapper {
+    position: relative;
+}
+.banner-nav {
+    width: 100%;
+    position: absolute;
+    top: 75.3%;
+    left: 0;
+    z-index: 3;
+}
+.banner-nav nav {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+.banner-nav a {
+    padding-right: 3.35%;
+}
+.banner-nav a img {
+    box-shadow: 3px 7px 12px #a4c1de;
+}
+.banner-nav a:last-of-type {
+    padding-right: 0;
+}
+.slys-content {
+    background: url(../img/slys_content_bg.png) no-repeat center top;
+}
+.hdjs-title {
+    padding-top: 6.8%;
+    text-align: center;
+}
+.hdjs-content-wrapper {
+    width: 100%;
+    margin-top: 4.8%;
+}
+.hdjs-content-img {
+    width: 56.3%;
+}
+.hdjs-content-text-wrapper {
+    width: 37.7%;
+    padding-top: 2.3%;
+}
+.hdjs-content-text-1, .hdjs-content-text-2 {
+    color: #1e59a9;
+    font-size: 18px;
+    line-height: 28px;
+    text-indent: 36px;
+}
+.hdjs-content-text-2 {
+    margin-top: 5.5%;
+}
+.hdjs-content-more {
+    font-size: 18px;
+    text-align: right;
+    color: #f51409;
+    margin-top: 3.6%;
+}
+.hdjs_sjz {
+    margin-top: 4.8%;
+}
+.xszs-title {
+    width: 100%;
+    text-align: left;
+    padding-top: 13.2%;
+}
+.xszs-wrapper {
+    margin-top: 4%;
+}
+.xszs-item-wrapper {
+    width: 30%;
+    padding: 2.5% 2.5% 3.5% 2.5%;
+    background: #f1f6fc;
+}
