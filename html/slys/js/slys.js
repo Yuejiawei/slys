@@ -6,6 +6,17 @@ $(function () {
     })
 });
 
+
+$(function () {
+    var swiper = new Swiper('.swiper-container', {
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+    })
+})
+
 // 悬浮隐藏banner上的阴影
 $('.banner-nav a img').hover(function (){
     $(this).css('box-shadow','none');
